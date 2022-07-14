@@ -7,8 +7,8 @@ from termcolor import colored
 #colorama.init()
 
 print(colored('~~~RAINBOW~~~', 'red'))
-print(colored('~~~RAINBOW~~~', 'yellow'))
+print(colored('~~~TA-WARRA~~~', 'yellow', attrs=['reverse', 'blink']))
 print(colored('~~~RAINBOW~~~', 'green'))
-print(colored('~~~RAINBOW~~~', 'cyan'))
+print(colored('~~~TA-WARRA~~~', 'cyan', attrs=['reverse', 'blink']))
 print(colored('~~~RAINBOW~~~', 'blue'))
-print(colored('~~~RAINBOW~~~', 'magenta'))
+print(colored('~~~TA-WARRA~~~', 'magenta', attrs=['reverse', 'blink']))
